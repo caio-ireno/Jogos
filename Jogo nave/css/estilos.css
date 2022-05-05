@@ -1,0 +1,249 @@
+@font-face {
+	font-family:Titulo;
+	src:url(../fontes/FreePixel.ttf);
+}
+
+h1 {
+	font-family:Titulo;
+	font-size:40px;
+	color:#000000;
+}
+
+
+body {
+	background-image:url(../imgs/fundo2.jpg);
+}
+
+#container{
+	width:950px;
+	height:auto;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#fundoGame {
+	width:950px;
+	height:630px;
+	background-image:url(../imgs/fundo.jpg);
+	border-color:#FFF;
+	border-style:solid;
+}
+
+#jogador {
+	width:150px;
+	height:140px;
+	position:absolute;
+	left:8px;
+	top:179px;
+background-image:url(../imgs/nave1.png);
+
+}
+
+#inimigo1 {
+	width: 172px;
+	height: 120px;
+	position: absolute;
+	left: 689px;
+	top: 253px;
+	background-image:url(../imgs/nave2.png);
+	
+}
+
+#inimigo2 {
+	width: 150px;
+	height: 110px;
+	position: absolute;
+	left: 775px;
+	top: 495px;
+	background-image: url(../imgs/nave3.png);
+}
+
+#amigo {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 10px;
+	top: 480px;
+	background-image:url(../imgs/planeta.png);
+}
+
+#inicio {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+    margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+
+}
+
+#disparo {
+	width: 50px;
+	height: 8px;
+	position: absolute;
+	background-image: url(../imgs/disparo.png);
+}
+
+.anima1 {
+	background-image:url(../imgs/nave1.png);
+	animation:play .5s steps(2) infinite;
+    -webkit-animation: play .5s steps(2) infinite;
+    -moz-animation: play .5s steps(2) infinite;
+    -ms-animation: play .5s steps(2) infinite;
+    -o-animation: play .5s steps(2) infinite;
+
+}
+
+@keyframes play {
+	from {background-position:0px;}
+	to {background-position:-312px;}
+}
+
+@-webkit-keyframes play {
+    from { background-position:0px; }
+      to { background-position: -312px; }
+ }
+ 
+ @-moz-keyframes play {
+    from { background-position:0px; }
+      to { background-position: -312px; }
+ }
+ 
+ @-ms-keyframes play {
+    from { background-position:0px; }
+      to { background-position: -312px; }
+ }
+ 
+ @-o-keyframes play {
+    from { background-position:0px; }
+      to { background-position: -312px; }
+ }
+
+ .anima2 {
+    background-image:url(../imgs/nave2.png);
+    animation: play2 .5s steps(2) infinite;
+    -webkit-animation: play2 .5s steps(2) infinite;
+    -moz-animation: play2 .5s steps(2) infinite;
+    -ms-animation: play2 .5s steps(2) infinite;
+    -o-animation: play2 .5s steps(2) infinite; 
+}
+@keyframes play2 {
+	from {background-position:0px;}
+	to {background-position:-1880px;}
+}
+
+
+.anima4 {
+    background-image:url(../imgs/nave3.png);
+    animation: play4 .5s steps(2) infinite;
+    -webkit-animation: play4 .5s steps(2) infinite;
+    -moz-animation: play4 .5s steps(2) infinite;
+    -ms-animation: play4 .5s steps(2) infinite;
+    -o-animation: play4 .5s steps(2) infinite; 
+}
+@keyframes play4 {
+	from {background-position:0px;}
+	to {background-position:-886.5px;}
+}
+
+
+#explosao1 {
+	width:15px;
+	height:87px;
+	position:absolute;
+
+}
+
+#explosao2 {
+	width:15px;
+	height:87px;
+	position:absolute;
+	
+}
+
+#explosao3 {
+	width:100px;
+	height:100px;
+	position:absolute;
+}
+
+.anima5 {
+	width:40px;
+	height:51px;
+	background-image:url(../imgs/amigo_morte.png);
+	animation:play3 .5s steps(5) infinite;
+	-webkit-animation: play3 .5s steps(5) infinite;
+       -moz-animation: play3 .5s steps(5) infinite;
+        -ms-animation: play3 .5s steps(5) infinite;
+         -o-animation: play3 .5s steps(5) infinite;
+}
+
+@keyframes play3 {
+	from {background-position:0px;}
+	to {background-position:-1315px;}
+}
+
+@-webkit-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-moz-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-ms-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-o-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+#placar {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
+}
+
+h2 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#FFF
+}
+
+#energia {
+	width: 140px;
+	height: 38px;
+	position: absolute;
+	left: 750px;
+	top: 7px;	
+}
+
+h3 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#603A03;
+
+}
+
+#fim {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+    	margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+
+}

@@ -1,0 +1,53 @@
+body{
+    text-align: center; /*Alinha o todo o BODY do html */
+}
+
+.quadrado{
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display:inline-block; /* não usa o espaço da direita */
+    padding: 40px; /* dentro do conteudo*/
+    font-size: 60px;
+    margin: 5px; /* fora do conteudo*/
+    cursor: pointer;
+    color:#eee;
+}
+
+.jogador, .vencedor{
+    font-size: 30px;
+    margin-top: 10PX;
+}
+
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}
+
+.dark-mode{
+    text-align: center;
+    width: 50px;
+    background: white;
+    display:inline-block; /* não usa o espaço da direita */
+    padding: 40px; /* dentro do conteudo*/
+    font-size: 60px;
+    margin: 5px; /* fora do conteudo*/
+    cursor: pointer;
+    color:white;
+}
+
+.dark-mode-body{
+    background:black;
+}
+
+.dark-mode-h1{
+    color:white;
+}
+
+#mode-selector{
+    border-radius: 5px;
+    margin:10px;
+}
